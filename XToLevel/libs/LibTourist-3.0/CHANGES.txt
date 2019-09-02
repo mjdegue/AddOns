@@ -1,0 +1,45 @@
+------------------------------------------------------------------------
+r209 | Odica | 2018-09-02 12:14:43 +0000 (Sun, 02 Sep 2018) | 10 lines
+Changed paths:
+   M /trunk/LibTourist-3.0.lua
+
+- corrected player level for The MOTHERLODE!!
+- corrected player level for Tol Dagor
+- corrected player level for Kings' Rest
+- corrected paths for Nazmir
+- added Waycrest Manor
+- added Freehold
+- added Siege of Boralus
+- added Temple of Sethraliss
+- added The Underrot
+- min level for BfA dungeons now depends on faction ('hostile' dungeons are accassible from lvl 120)
+------------------------------------------------------------------------
+r208 | Odica | 2018-09-02 10:27:39 +0000 (Sun, 02 Sep 2018) | 7 lines
+Changed paths:
+   M /trunk/LibTourist-3.0.lua
+
+- API change: exposed HereBeDragons. By calling LibTourist:GetHBD() the HBD 2.0 interface is now available through LibTourist without having to install or include HBD.
+- fixed some translations
+- added Atal'dazar
+- added Kings' Rest
+- corrected location and paths for The MOTHERLODE!!
+- added Stormwind City - Stormshield Portal
+- added Orgrimmar - Warspear Portal
+------------------------------------------------------------------------
+r207 | Odica | 2018-08-13 22:51:10 +0000 (Mon, 13 Aug 2018) | 11 lines
+Changed paths:
+   M /trunk/LibTourist-3.0.lua
+
+- The following transports have been replaced by portals:
+Orgrimmar - Undercity zeppelin
+Undercity - Grom'gol zeppelin
+Undercity - Howling Fjord zeppelin
+Stormwind City - Teldrassil boat
+Teldrassil - Azuremyst boat
+- The Zandalar continent has its faction set to Horde
+- The Kul Tiras continent has its faction set to Alliance
+- GetMapNameById now returns the correct name for The Maelstrom continent (ID 948)
+- GetLevel now returns nil for 'scaled' (the third return value) if high and low are equal (like for Suramar), as there is not much to scale in a one-level bracket
+
+------------------------------------------------------------------------
+

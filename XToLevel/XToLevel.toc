@@ -1,0 +1,36 @@
+## Interface: 11302
+## Title: XToLevel
+## Author: Ciaanh
+## Version: 11302
+## Notes: Shows mobs, quests, dungeons and battles needed until you reach your next level.
+## URL: http://wow.curseforge.com/addons/xtolevel-classic/
+## OptionalDeps: LibStub,CallbackHandler-1.0,LibDataBroker-1.1,AceTimer-3.0,AceConfig-3.0,AceGUI-3.0,AceDB-3.0,AceDBOptions-3.0
+## DefaultState: Enabled
+## LoadOnDemand: 0
+## SavedVariables: XToLevelDB
+## SavedVariablesPerCharacter: sConfig,sData
+## X-Category: Quest
+## X-Curse-Packaged-Version: 1.13.2
+## X-Curse-Project-Name: XToLevel Classic
+## X-Curse-Project-ID: xto-level-classic
+## X-Curse-Repository-ID: wow/xto-level-classic/mainline
+## Based-on XToLevel Future https://www.curseforge.com/wow/addons/xtolevel-future
+
+embeds.xml
+
+locale\locale.xml
+
+Main.lua
+Tables.lua
+Libs.lua
+Config.lua
+
+objects\Messages.lua
+objects\LDB.lua
+objects\Tooltip.lua
+objects\Average.lua
+objects\Player.lua
+
+frames\GlobalTemplates.xml
+frames\AverageFrame_Classic.xml
+frames\AverageFrame_Blocky.xml
